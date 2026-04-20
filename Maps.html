@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Application</title>
+
+<link rel="stylesheet" href="./css/MAIN.css">
+
+<link href='https://fonts.googleapis.com/css?family=Notable' rel='stylesheet'> 
+  <style>
+  .custom-font2 {
+  font-family: 'Notable', sans-serif;
+}
+ .hero {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      rgba(0,0,0,0.4),
+      rgba(0,0,0,0.4)
+    ),
+    url("./Images/homebackground.jpeg");
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  color: white;
+}
+.text-box {
+  width: 40%;
+}
+
+.sofia-font {
+      font-family: 'Sofia', sans-serif;
+}
+
+.gelasio-font {
+      font-family: 'gelasio', sans-serif;
+}
+
+footer {
+  background-color: #fc9f9f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+       <li><a href=HomePage.html>Home</a></li>
+    <li><a href=AbousUs.html> Trainees</a></li>
+    <li><a href=Maps.html>Application </a></li>
+    <li><a href=Jobs.html>Jobs </a></li>
+    <li><a href=OurCourses.html> Our Courses </a></li>
+    <li><a href=ContactUs.html>Get in touch</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="hero">
+  <div class="text-box">
+<h1 style="font-size:55px;" class="custom-font2">  Volunteer Application</h1>
+<h2>Personal Information</h2>
+<p>	Date of Application _____________</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <label for="fname">Address:</label><br>
+  <input type="text" id="fname" name="fname" value="52 Crescent Close"><br>
+  <label for="lname">Mobile Number:</label><br>
+  <input type="text" id="lname" name="lname" value="+44 XXXXXXXXXX"><br><br>
+  
+  <h2>Availability </h2>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Are you currently employed</label><br>
+  <label for="fname">Sought out role:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Available start date:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  
+   <h2>Education </h2>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Did you attend a college ?</label><br>
+  <label for="fname">School name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Did you attend university ? </label><br>
+  <label for="lname">School name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  
+  
+ <input type="submit" value="Submit">
+</form> 
+
+
+</body>
+</html>

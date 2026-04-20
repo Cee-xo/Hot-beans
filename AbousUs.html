@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Trainees </title>
+
+<link rel="stylesheet" href="./css/MAIN.css">
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'> 
+<link href='https://fonts.googleapis.com/css?family=Notable' rel='stylesheet'> 
+
+  <style>
+  .banner {
+      height: 40vh; /* 40% of screen height */
+      background-image: url('./Images/banner3.png');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+.custom-font {
+  font-family: 'Merriweather', sans-serif;
+}
+
+.custom-font2 {
+  font-family: 'Notable', sans-serif;
+}
+
+
+
+   #box {
+display:table;
+width:100%;
+}
+.column {
+display:table-cell;
+width:66%;
+background:#d33d3d;
+padding:0 20px;
+} 
+.two {
+  display:table-cell;
+background:#d33d3d;
+padding:0 20px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eee;
+  }
+
+  /* Grid container */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  /* Card */
+  .card {
+    background: #4f8fc4;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Image */
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+
+  /* Name */
+  .card h3 {
+    margin: 10px 0 5px;
+  }
+
+  .card p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+     <li><a href=HomePage.html>Home</a></li>
+    <li><a href=AbousUs.html> Trainees</a></li>
+    <li><a href=Maps.html>Application </a></li>
+    <li><a href=Jobs.html>Jobs </a></li>
+    <li><a href=OurCourses.html> Our Courses </a></li>
+    <li><a href=ContactUs.html>Get in touch</a></li>
+    </ul>
+  </nav>
+
+ <div class="banner">
+    Banner Text
+  </div>
+
+  <div class="card-container">
+
+  <div class="card">
+     <img src="img_avatar.png" alt="Avatar" style="width:100%">
+    <h3>Jane Doe</h3>
+    <p>Frontend Developer</p>
+  </div>
+
+  <div class="card">
+   <img src="img_avatar.png" alt="Avatar" style="width:100%">
+    <h3>John Smith</h3>
+    <p>Backend Developer</p>
+  </div>
+
+  <div class="card">
+    <img src="img_avatar.png" alt="Avatar" style="width:100%">
+    <h3>Aisha Khan</h3>
+    <p>Full Stack Developer</p>
+  </div>
+
+  <div class="card">
+     <img src="img_avatar.png" alt="Avatar" style="width:100%">
+    <h3>Leo Brown</h3>
+    <p>UI Designer</p>
+  </div>
+
+</div>
+
+
+</body>
+</html>
