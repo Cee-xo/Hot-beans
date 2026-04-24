@@ -3,12 +3,126 @@
 <head>
   <title>Get in touch</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 <link rel="stylesheet" href="./css/MAIN.css">
 
   <style>
-   
+   .banner {
+      height: 40vh; /* 40% of screen height */
+      background-image: url('./Images/banner3.png');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: 'gelasio' 
+    }
+
+
+ #box {
+display:table;
+width:100%;
+}
+.column {
+display:table-cell;
+width:55%;
+background:#f3c8c8;
+padding:0 20px;
+} 
+.two {
+  display:table-cell;
+background:#ffffff;
+padding:0 20px;
+ font-family: Arial, sans-serif;
+    background: #ffffff;
+    padding: 40px;
+  }
+
+  .form-container {
+    max-width: 900px;
+    margin: auto;
+    background: #f5f5f5;
+  }
+
+  .row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+
+  input, textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+
+  textarea {
+    resize: none;
+    height: 120px;
+  }
+
+  .checkbox-group {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0 20px;
+  }
+
+  .checkbox-group label {
+    font-weight: normal;
+  }
+
+  .single-checkbox {
+    margin: 15px 0;
+  }
+
+  button {
+    background: #0b2d3a;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background: #094252;
+  }
+
+  .note {
+    font-size: 12px;
+    color: #666;
+    margin-top: 15px;
+  }
+
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+
+
+
+
+
+
   </style>
 </head>
 <body>
@@ -24,22 +138,86 @@
     </ul>
   </nav>
 
-<nav class="w3-container">
-<h2>Responsive Show/Hide</h2>
-<p><strong>Note:</strong> Resize the browser window to understand how it works:</p>
 
-<nav class="w3-container w3-hide-small w3-red">
-<p>w3-hide-small will be hidden on small screens (phones)</p>
-</nav>
+<div class="banner">
+   Let's Work Together
+  </div>
 
-<nav class="w3-container w3-hide-medium w3-green">
-<p>w3-hide-medium will be hidden on medium screens (tablets)</p>
-</nav>
+<section id="box">
+   <article class="column">
+    <h1>Contact Us at:</h1>
+    <h3>01673 621 125</h3>
+<h3>HotBeans@example.com</h3>
+<h3>Address:</h3>
+<Address>Edmund House, 12-22 Newhall St, Leicestershire LE12 3AS</Address>
+   </article>
 
-<nav class="w3-container w3-hide-large w3-blue">
-<p>w3-hide-large will be hidden on large screens (laptops/desktop)</p>
-</nav>
-</nav>
+
+
+
+  <article class="two">
+    <div class="form-container">
+
+  <form>
+    
+    <div class="row">
+      <div class="field">
+        <label>Name</label>
+        <input type="text" placeholder="">
+      </div>
+
+      <div class="field">
+        <label>Email</label>
+        <input type="email" placeholder="">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <label>Phone</label>
+        <input type="text">
+      </div>
+
+      <div class="field">
+        <label>Company</label>
+        <input type="text">
+      </div>
+    </div>
+
+    <label>How can we help?</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox"> Enquiry</label>
+      <label><input type="checkbox"> Audit</label>
+      <label><input type="checkbox"> Build</label>
+      <label><input type="checkbox"> Grow</label>
+      <label><input type="checkbox"> Careers</label>
+    </div>
+
+    <div class="field">
+      <label>Message (optional)</label>
+      <textarea></textarea>
+    </div>
+
+    <div class="single-checkbox">
+      <label>
+        <input type="checkbox">
+        Tick this box if you would like to be kept up to date with our latest news via email.
+      </label>
+    </div>
+
+    <button type="submit">Submit →</button>
+
+  
+
+  </form>
+
+</div>
+
+   </article>
+</section>  
+
+
+
 
 </body>
 </html>
