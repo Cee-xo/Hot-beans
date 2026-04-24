@@ -2,41 +2,58 @@
 <html>
 <head>
 <title>
-    Home Page
+    Hot Beans 
 </title>
 
-<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'> 
-<link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'> 
-<link href='https://fonts.googleapis.com/css?family=Notable' rel='stylesheet'> 
+
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Gelasio' rel='stylesheet'>
+
 
 <link rel="stylesheet" href="./css/MAIN.css">
 
 <style>
-    #box {
-display:table;
-width:100%;
-}
-.column {
-display:table-cell;
-width:66%;
-background:#ffffff;
-padding:0 20px;
-} 
-.two {
-  display:table-cell;
-background:#ffffff;
-padding:0 20px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.custom-font {
-  font-family: 'Merriweather', sans-serif;
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      rgba(0,0,0,0.4),
+      rgba(0,0,0,0.4)
+    ),
+    url("./Images/homebackground.jpeg");
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  color: white;
 }
-.custom-font1 {
-  font-family: 'Barlow', sans-serif;
+
+.text-box {
+  width: 40%;
 }
-.custom-font2 {
-  font-family: 'Notable', sans-serif;
+
+.sofia-font {
+      font-family: 'Sofia', sans-serif;
 }
+
+.gelasio-font {
+      font-family: 'gelasio', sans-serif;
+}
+
+footer {
+  background-color: #fc9f9f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
   </style>
 
 
@@ -44,7 +61,7 @@ padding:0 20px;
 <body>
 <nav>
   <ul>
-    <li><a href=HomePage.html>Home</a></li>
+     <li><a href=HomePage.html>Home</a></li>
     <li><a href=AbousUs.html> Trainees</a></li>
     <li><a href=Maps.html>Application </a></li>
     <li><a href=Jobs.html>Jobs </a></li>
@@ -53,20 +70,17 @@ padding:0 20px;
   </ul>
 </nav>
 
- <h1 style="font-size:55px;" class="custom-font2">    Midshires Heritage Railway</h1>
+<div class="hero">
+  <div class="text-box">
+    <h1 class="gelasio-font"style="font-size:50px;" >Build your new digital foundations with Hot Beans.</h1>
+    <p style="font-size:20px;" >A digital agency specialising in websites, applications and custom development. </p>
 
-  <p style="font-size:60px; font-weight:bold;"class="custom-font">Welcome</p>
+ <p style="font-size:20px;" >Access a powerful mix of inhouse technical consultants, web developers, project managers, designers, testers, and DevOps engineers. Together, our teams deliver robust, compliant, secure and scalable solutions that meet your needs and help you grow in your journey of being a Web Developer.
+  </div>
+</div>
 
-<section id="box">
-   <article class="column">
-      <p> <img src="./Images/train.jpg" alt="train" width="400"> </p>
-      <p class="custom-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales maximus massa et finibus. Vivamus feugiat porttitor magna fringilla ultrices. Morbi porttitor est nulla, fringilla eleifend urna egestas sodales. Integer venenatis tempor urna id congue. Maecenas euismod felis lacus, ut facilisis tellus tempus vitae. Integer sed eros non diam lacinia placerat id ac mi. Nunc suscipit dignissim lacus, quis gravida odio porta ut. Etiam gravida volutpat mauris, vitae ullamcorper quam egestas suscipit. Integer et elit vehicula, luctus nisl sed, pulvinar lectus. Aenean sollicitudin in ipsum sed finibus. Aliquam congue augue leo, id lobortis ipsum pharetra sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-      <p class="custom-font">Sed vel mattis risus. Nam id ante faucibus, pretium ligula eget, ultrices lacus. Curabitur fringilla tincidunt erat, quis viverra augue mattis ac. Curabitur nec rhoncus ligula. Aenean sollicitudin fringilla cursus. Sed nec quam at nibh semper vehicula rhoncus et nisi. Nam sed accumsan libero. Aenean a quam congue, pellentesque ante id, commodo justo. Mauris magna arcu, condimentum sit amet congue ut, maximus at dui. Vivamus at venenatis tortor. Sed non efficitur nulla, vel venenatis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id massa sed orci vestibulum egestas. Integer commodo eros tellus, congue aliquet dui molestie ac. Praesent eros augue, dapibus nec erat quis, pulvinar vulputate urna. Proin libero ligula, vulputate ac massa eget, lobortis iaculis mi.</p>
-   </article>
-   <article class="two">
-    <p class= "custom-font1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat sem ornare ligula rutrum mollis. Duis venenatis ornare risus id convallis. Pellentesque finibus ultrices dolor, id porttitor tortor fermentum in. Donec iaculis luctus facilisis. Integer id facilisis lorem. Donec eu ipsum id sapien viverra rutrum. Nam a venenatis mauris. Ut a justo posuere, semper risus eget, elementum neque. Proin gravida.</p>
-      <p class= "custom-font1"> pretium purus nisi, et vulputate sapien tempor in. Quisque volutpat nisl nec eros consectetur, a varius tellus placerat. Curabitur neque lacus, fermentum a velit non, porttitor auctor lectus. Aliquam facilisis odio a mi malesuada, nec tempus nulla mollis. Phasellus vel neque dolor. Quisque maximus magna lacinia est viverra, nec varius tellus feugiat. Suspendisse potenti. Suspendisse ac volutpat est. Aenean pretium pulvinar pretium. Pellentesque et consectetur turpis. Vestibulum dictum, lectus ut sodales gravida, ipsum tellus porttitor diam, in interdum augue metus eget erat. Donec ligula felis, tincidunt vitae maximus suscipit, feugiat hendrerit lorem. Pellentesque bibendum mattis interdum.</p>
-      <p>More Content</p>
-   </article>
-</section>  
+<footer>
+  <p>© 2026 My Website | Contact: HotBeans@example.com</p>
+</footer>
+
  
